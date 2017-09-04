@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TableLayoutPages</title>
+</head>
+
+<body>
+<h1>用户调查表</h1>
+<form>
+	姓名:<input type="text" name="username" size="20"> <br/>
+	网址:<input type="text" name="url" size="20" maxlength="50" value="http://"> <br/>
+	密码:<input type="password" name="password" size="20" maxlength="8" > <br/>
+	请上传你的照片<input type="file" name="photo"> <br />
+	请选择你喜欢的音乐:
+	<input type="checkbox" name="m1" value="rock" checked>摇滚乐
+	<input type="checkbox" name="m2" value="jazz">爵士
+	<input type="checkbox" name="m3" value="pop">流行乐
+	<br/>
+	请选择你居住的城市:
+	<input type="radio" name="city" value="beijing" checked>北京
+	<input type="radio" name="city" value="shanghai" >上海
+	<input type="radio" name="city" value="guangzhou">广州
+	<br/>
+	请选择你喜欢的网站:
+	<select name="web" multiple>
+		<option value="sina">新浪</option>
+		<option value="yahoo">雅虎</option>
+		<option value="soho">搜狐</option>
+		<option value="google">google</option>
+	</select>
+	<br/>
+	请选择你喜欢的水果:
+	<select name="fruit">
+		<option value="apple">apple</option>
+		<option value="banana">banana</option>
+		<option value="orange">orange</option>
+	</select>
+	<br/>
+	<p>请留言</p>
+	<textarea name="say" rows="5" cols="60"></textarea> <br>
+	<input type="submit" value="提交">
+	<input type="reset" value="重置">
+	<input type="hidden" name="invest" value="invest">
+	
+</form>
+</body>
+</html>

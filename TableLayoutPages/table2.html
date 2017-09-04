@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Table2</title>
+</head>
+<table border="1" width="800">
+	<tr>	
+	<td align="center" colspan="4">
+	 <b>产品订购</b>
+	</td>
+	</tr>
+	
+	<tr>
+	<td align="right">姓名:</td><td><input type="text" maxlength="5"></td>
+	<td>产品名称:</td><td><input type="text" maxlength="10"> </td>
+	</tr><br>
+	
+	<tr>
+	<td align="right">地区:</td><td><select>
+		<option value="guangzhou" selected>广州</option>
+		<option value="beijing">北京</option>
+		<option value="shanghai">上海</option>
+	</select></td>
+	
+	<td>付款方式:</td><td>
+	<input type="radio" name="mode" value="wangshang" checked>网上
+	<input type="radio" name="mode" value="youju">邮局
+	<input type="radio" name="mode" value="yinhang">银行</td>
+	</tr>
+	<br>
+	<tr>
+	<td align="right">关注产品:</td><td colspan="3">
+	<input type="checkbox" name="product" value="hufu" checked> 护肤品
+	<input type="checkbox" name="product" value="huazhuang"> 化妆品
+	<input type="checkbox" name="product" value="fuzhuang"> 服装
+	<input type="checkbox" name="product" value="dianqi"> 电器</td>
+	</tr>
+	
+		<br>
+	
+	<tr><td align="right">联系电话:</td><td colspan="3">
+	<input type="tel" maxlength="11">
+	</td>
+	</tr>
+	<br>
+	<tr>
+	<td align="right">备注:</td>
+	<td colspan="3"><textarea rows="5" cols="90">
+		
+	</textarea></td>
+	</tr>
+	<br>
+	<tr>
+	<td colspan="4" align="center">
+	<input type="submit" value="提交">
+	<input type="reset" value="重置">
+	</td>
+	</tr>
+	
+</table>
+
+
+<body>
+</body>
+</html>
