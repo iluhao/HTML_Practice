@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: arial;
+	margin: 0px;
+	padding: 0px;
+	background: #000;
+}
+#container{
+	margin: 0px auto;
+	padding: 0px;
+	background: url(BingWallpaper-2017-09-04.jpg) repeat-y;
+/*	background: #DD1215;*/
+	
+}
+#mainbox{
+	position: relative;
+	height: 730px;
+}
+
+#left{
+	
+	position: absolute;
+	padding: 20px 0px 20px 0px;
+	top: 0px;
+	left: 0px;
+	width: 190px;
+	height: 100%;
+	background: #afdcff;
+	
+}
+#middle{
+	padding: 1px 15px 39px 15px;
+	margin: -20px 190px 0px 190px;
+	font-size: 13px;
+	height: 100%;
+/*	background: #e9fbff url(timg.jpg) no-repeat bottom right;*/
+}
+#right{
+	position: absolute;
+	background: #f8e5a9;
+	padding: 20px 0px 20px 0px;
+	top: 0px;
+	right: 0px;
+	width: 190px;
+	height: 100%;
+	font-size: 12px;
+}
+
+#left ul{
+	list-style: none;
+	margin: lem 20px 0px 0px;
+	padding: 0px 0px 15px 22px;
+}
+
+#left li{
+	font-size: 80%;
+	border-bottom: 1px dotted #B2BCC6;
+	margin-bottom: 0.3em;
+}
+#left a:link, #nav a:visited{
+	text-decoration: none;
+	color: #2A4F6F;
+	background-color: transparent;
+}
+#left a:hover{
+	color: #778899;
+}
+#left h2{
+	font: 110% Georgia, "Time New Roman",Times,serif;
+	font-weight: bold;
+	color: #2A4F6F;
+	padding: 0px 5px 0px 12px;
+	text-decoration: underline;
+}
+#middle h4{
+	text-decoration: underline;
+	color: #0078aa;
+	padding-top: 15px;
+	font-size: 16px;
+}
+#footer{
+	margin-top: 26px;
+	font-size: 12px;
+	width: 100%;
+	position: relative;
+	padding: 0px;
+	text-align: center;
+	background: #b0cfff;
+}
+#right img{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #0073cc;
+	margin-bottom: 5px;
+}
+#right p{
+	text-align: center;
+	padding: 0px 15px 0px 15px;
+}
